@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8E379F9F1B6E17B800677866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E379F9E1B6E17B800677866 /* AppDelegate.swift */; };
+		8E379FA11B6E17B800677866 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E379FA01B6E17B800677866 /* BaseViewController.swift */; };
+		8E379FA41B6E17B800677866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E379FA21B6E17B800677866 /* Main.storyboard */; };
+		8E379FA61B6E17B800677866 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E379FA51B6E17B800677866 /* Images.xcassets */; };
+		8E379FB51B6E17B900677866 /* RhythmTrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E379FB41B6E17B900677866 /* RhythmTrainingTests.swift */; };
+		8E379FC11B6E484B00677866 /* BaseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E379FC01B6E484B00677866 /* BaseViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E379FAF1B6E17B900677866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E379F911B6E17B800677866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E379F981B6E17B800677866;
+			remoteInfo = RhythmTraining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8E379F991B6E17B800677866 /* RhythmTraining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RhythmTraining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E379F9D1B6E17B800677866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E379F9E1B6E17B800677866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E379FA01B6E17B800677866 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8E379FA31B6E17B800677866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8E379FA51B6E17B800677866 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8E379FAE1B6E17B900677866 /* RhythmTrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RhythmTrainingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E379FB31B6E17B900677866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E379FB41B6E17B900677866 /* RhythmTrainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RhythmTrainingTests.swift; sourceTree = "<group>"; };
+		8E379FC01B6E484B00677866 /* BaseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E379F961B6E17B800677866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E379FAB1B6E17B900677866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E379F901B6E17B800677866 = {
+			isa = PBXGroup;
+			children = (
+				8E379FC01B6E484B00677866 /* BaseViewController.xib */,
+				8E379F9B1B6E17B800677866 /* RhythmTraining */,
+				8E379FB11B6E17B900677866 /* RhythmTrainingTests */,
+				8E379F9A1B6E17B800677866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E379F9A1B6E17B800677866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E379F991B6E17B800677866 /* RhythmTraining.app */,
+				8E379FAE1B6E17B900677866 /* RhythmTrainingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E379F9B1B6E17B800677866 /* RhythmTraining */ = {
+			isa = PBXGroup;
+			children = (
+				8E379F9E1B6E17B800677866 /* AppDelegate.swift */,
+				8E379FA01B6E17B800677866 /* BaseViewController.swift */,
+				8E379FA21B6E17B800677866 /* Main.storyboard */,
+				8E379FA51B6E17B800677866 /* Images.xcassets */,
+				8E379F9C1B6E17B800677866 /* Supporting Files */,
+			);
+			path = RhythmTraining;
+			sourceTree = "<group>";
+		};
+		8E379F9C1B6E17B800677866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E379F9D1B6E17B800677866 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8E379FB11B6E17B900677866 /* RhythmTrainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E379FB41B6E17B900677866 /* RhythmTrainingTests.swift */,
+				8E379FB21B6E17B900677866 /* Supporting Files */,
+			);
+			path = RhythmTrainingTests;
+			sourceTree = "<group>";
+		};
+		8E379FB21B6E17B900677866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E379FB31B6E17B900677866 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E379F981B6E17B800677866 /* RhythmTraining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E379FB81B6E17B900677866 /* Build configuration list for PBXNativeTarget "RhythmTraining" */;
+			buildPhases = (
+				8E379F951B6E17B800677866 /* Sources */,
+				8E379F961B6E17B800677866 /* Frameworks */,
+				8E379F971B6E17B800677866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RhythmTraining;
+			productName = RhythmTraining;
+			productReference = 8E379F991B6E17B800677866 /* RhythmTraining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E379FAD1B6E17B900677866 /* RhythmTrainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E379FBB1B6E17B900677866 /* Build configuration list for PBXNativeTarget "RhythmTrainingTests" */;
+			buildPhases = (
+				8E379FAA1B6E17B900677866 /* Sources */,
+				8E379FAB1B6E17B900677866 /* Frameworks */,
+				8E379FAC1B6E17B900677866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E379FB01B6E17B900677866 /* PBXTargetDependency */,
+			);
+			name = RhythmTrainingTests;
+			productName = RhythmTrainingTests;
+			productReference = 8E379FAE1B6E17B900677866 /* RhythmTrainingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E379F911B6E17B800677866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = onelei;
+				TargetAttributes = {
+					8E379F981B6E17B800677866 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8E379FAD1B6E17B900677866 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8E379F981B6E17B800677866;
+					};
+				};
+			};
+			buildConfigurationList = 8E379F941B6E17B800677866 /* Build configuration list for PBXProject "RhythmTraining" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E379F901B6E17B800677866;
+			productRefGroup = 8E379F9A1B6E17B800677866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E379F981B6E17B800677866 /* RhythmTraining */,
+				8E379FAD1B6E17B900677866 /* RhythmTrainingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E379F971B6E17B800677866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E379FA41B6E17B800677866 /* Main.storyboard in Resources */,
+				8E379FC11B6E484B00677866 /* BaseViewController.xib in Resources */,
+				8E379FA61B6E17B800677866 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E379FAC1B6E17B900677866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E379F951B6E17B800677866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E379FA11B6E17B800677866 /* BaseViewController.swift in Sources */,
+				8E379F9F1B6E17B800677866 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E379FAA1B6E17B900677866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E379FB51B6E17B900677866 /* RhythmTrainingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E379FB01B6E17B900677866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E379F981B6E17B800677866 /* RhythmTraining */;
+			targetProxy = 8E379FAF1B6E17B900677866 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E379FA21B6E17B800677866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E379FA31B6E17B800677866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E379FB61B6E17B900677866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E379FB71B6E17B900677866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E379FB91B6E17B900677866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RhythmTraining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8E379FBA1B6E17B900677866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RhythmTraining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8E379FBC1B6E17B900677866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RhythmTrainingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RhythmTraining.app/RhythmTraining";
+			};
+			name = Debug;
+		};
+		8E379FBD1B6E17B900677866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RhythmTrainingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RhythmTraining.app/RhythmTraining";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E379F941B6E17B800677866 /* Build configuration list for PBXProject "RhythmTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E379FB61B6E17B900677866 /* Debug */,
+				8E379FB71B6E17B900677866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E379FB81B6E17B900677866 /* Build configuration list for PBXNativeTarget "RhythmTraining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E379FB91B6E17B900677866 /* Debug */,
+				8E379FBA1B6E17B900677866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8E379FBB1B6E17B900677866 /* Build configuration list for PBXNativeTarget "RhythmTrainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E379FBC1B6E17B900677866 /* Debug */,
+				8E379FBD1B6E17B900677866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8E379F911B6E17B800677866 /* Project object */;
+}
